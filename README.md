@@ -1,16 +1,15 @@
-# progamming_nc4
+## Set up & Run (web)
 
-A new Flutter project.
+1. flutter config --enable-web
 
-## Getting Started
+2. flutter run -d chrome
 
-This project is a starting point for a Flutter application.
+## Branch & Commit
 
-A few resources to get you started if this is your first Flutter project:
+- git checkout feature/home-screen
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- git add .
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- git commit -m "feat(main.dart): add "Hello World! centered text"
+
+- git push origin feature/home-screen
